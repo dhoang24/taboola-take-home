@@ -24,5 +24,5 @@ CREATE TABLE History (
 
 SELECT *
 FROM Products
-JOIN History
+INNER JOIN History
 ON Products.product_name = History.product_name
